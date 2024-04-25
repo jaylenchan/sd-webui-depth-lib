@@ -7,8 +7,6 @@ import gradio as gr
 import modules.scripts as scripts
 from modules import script_callbacks
 
-from basicsr.utils.download_util import load_file_from_url
-
 maps_path = os.path.join(scripts.basedir(), "maps");
 types = list(os.walk(maps_path))[0][1]
 
